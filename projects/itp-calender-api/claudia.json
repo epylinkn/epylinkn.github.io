@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "itp-calendar-executor",
+    "name": "itp-calendar",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "fdhfhjlawf",
+    "module": "server"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calendar.js",
+  "files": "*.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "claudia": "^1.4.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "cheerio": "^0.20.0",
+    "claudia-api-builder": "^1.2.1",
+    "request": "^2.72.0",
+    "request-promise": "^3.0.0"
+  }
+}
