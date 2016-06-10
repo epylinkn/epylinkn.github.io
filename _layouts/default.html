@@ -15,7 +15,7 @@
 
     {% include footer.html %}
 
-    <iframe src="./background.html" frameborder="0"
+    <iframe src="{{ "/background.html" | prepend: site.base_url }}" frameborder="0"
         style="height: 100%; width: 100%; position: fixed; top: 0px; left: 0px; z-index: -2; pointer-events: auto;"></iframe>
 
   </body>
