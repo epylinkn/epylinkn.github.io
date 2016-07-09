@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bash harder with emojis and stuff!"
-date:   2016-07-08 20:33:55 -0400
+date:   2016-07-09 16:33:55 -0400
 categories: bash h4x0r
 ---
 
