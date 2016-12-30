@@ -204,3 +204,12 @@ pre {
         }
     }
 }
+
+
+/**
+ * Canvas Background
+ */
+#canvas-background canvas {
+    position: fixed;
+    z-index: -1;
+}
