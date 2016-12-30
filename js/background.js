@@ -1,7 +1,8 @@
 var canvas;
 var dots = [];
 
-var COLORS = [ "#00F2D7", "#39BFB0", "#00A693", "#49F2DF", "#007366" ];
+// var COLORS = [ "#00F2D7", "#39BFB0", "#00A693", "#49F2DF", "#007366" ]; // mints
+var COLORS = [ "#20032A", "#723C8B", "#A07ABC", "#AA92C2", "#E5DDF0" ]; // purples
 var C_WIDTH;
 var C_HEIGHT;
 var DOT_SPACING = 48;
