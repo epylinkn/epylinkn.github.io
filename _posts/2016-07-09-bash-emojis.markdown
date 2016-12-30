@@ -9,7 +9,7 @@ I've been spending a lot of time in iTerm lately juggling multiple tabs and mult
 
 Anyway, here's some dope code for a kick-ass command prompt, complete with dynamic emojis that change depending on the time of day! (The latter was surprisingly hard to get just right.)
 
-<img src="/assets/prompt.gif"/>
+<img src="/assets/img/prompt.gif"/>
 
 {% highlight shell %}
 # Setup some color variables to clean strings up immensely
