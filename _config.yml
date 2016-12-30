@@ -7,7 +7,6 @@
 
 # Site settings
 title: buoydontfloat.com
-email: human@buoydontfloat.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -17,10 +16,10 @@ url: "http://epylinkn.github.io" # the base hostname & protocol for your site
 
 # User settings
 username: BuoyDontFloat
-email: lorem.lorem@ipsum.com
+email: human@buoydontfloat.com
 gplus_username:  loremipsum
 disqus_username: loremipsum
-twitter_username: buoydontfloat
+twitter_username: epylinkn
 github_username:  epylinkn
 
 # Build settings
