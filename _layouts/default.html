@@ -1,27 +1,16 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body>
-
-    <div id="canvas-background"></div>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-    <!--
-    <iframe src="{{ "/background.html" | prepend: site.base_url }}" frameborder="0"
-        style="height: 100%; width: 100%; position: fixed; top: 0px; left: 0px; z-index: -2; pointer-events: auto;"></iframe>
-    -->
-
-  </body>
-
+<html lang="pt-br">
+    {% include head.html %}
+    <body>
+        {% include svg-icons.html %}
+        {% include header-default.html %}
+            <section class="content">
+                {{ content }}
+            </section>
+        {% include scripts.html %}
+    </body>
 </html>
