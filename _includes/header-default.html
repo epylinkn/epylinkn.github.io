@@ -20,7 +20,7 @@
         </div>
 
         <ul class="recent">
-            <p>Recent posts:</p>
+            <p class="recent-title">RECENT POSTS:</p>
              {% for post in site.posts limit:3 %}
                 <li>
                     <a href="{{ post.url | prepend: site.baseurl }}">
@@ -31,7 +31,7 @@
         </ul>
 
         <ul class="recent">
-            <p>Recent projects:</p>
+            <p class="recent-title">RECENT PROJECTS:</p>
              {% for project in site.projects limit:3 %}
                 <li>
                     <a href="{{ project.url}}">
