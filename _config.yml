@@ -17,9 +17,8 @@ url: "http://epylinkn.github.io" # the base hostname & protocol for your site
 # User settings
 username: BuoyDontFloat
 email: human@buoydontfloat.com
-gplus_username:  loremipsum
-disqus_username: loremipsum
-twitter_username: epylinkn
+disqus_username: epylinkn
+twitter_username: anthonybui
 github_username:  epylinkn
 
 # Build settings
