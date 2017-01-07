@@ -29,14 +29,12 @@ markdown: kramdown
 links:
   - title: home
     url: /
-  - title: my posts
-    url: /posts
-  - title: series
-    url: /series
-  - title: tags
-    url: /tags
-  - title: about me
+  - title: about
     url: /about
+  - title: posts
+    url: /posts
+  - title: projects
+    url: /series
 # projects in header index
 projects:
   - name: asciilang
