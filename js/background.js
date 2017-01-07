@@ -14,6 +14,7 @@ var OFFSETX = 2;
 var OFFSETY = 2;
 
 function setup() {
+  console.log("Setup p5.js");
   canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent("#canvas-background");
 
@@ -75,7 +76,6 @@ function setupDots() {
       });
     }
   }
-  console.log(dots);
 }
 
 function windowResized() {
