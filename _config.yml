@@ -37,11 +37,14 @@ links:
     url: /series
 # projects in header index
 projects:
-  - name: asciilang
-    url: https://github.com/victorvoid/asciilang
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara
+  - title: ocarina of time
+    name: interactive treasure chest
+    url: https://www.buoydontfloat.com
+  - title: haiku machine
+    name: haiku machine
+    url: https://www.buoydontfloat.com
+  - title: canvas-background
+    name: canvas background
+    url: https://github.com/epylinkn/canvas-background
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
