@@ -6,18 +6,16 @@ description: "Take a look at my beautiful posts."
 ---
 
 <h1>Posts</h1>
-<div class="tree-posts">
 
-  {% for post in site.posts %}
-
-  <article role="article" class="post-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-    <div class="content">
+{% for post in site.posts %}
+  <ul class="post-list">
+    <li>
       <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title" itemprop="name">{{ post.title | replace: ' ','-'}}.md</h2>
+        {{ post.title }}
+        <span class="entry-date">
+          <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>
       </a>
-    </div>
-  </article>
+    </li>
+  </ul>
+{% endfor %}
 
-  {% endfor %}
-
-</div>
