@@ -13,6 +13,6 @@ project lest it create too much litter.
 Using a repurposed, ancient voltmeter (found secondhand at Urban Ore), I
 set out to create a bike-mountable installation that generated and printed personalized Haikus. (Personalized in the sense that I wanted participants to hold two wires to complete the circuit and from the resistance measured seed a random haiku generator.
 
-> I wrote this for you
-> My generated Haiku
-> Shows its love to you
+> I wrote this for you  
+My generated Haiku  
+Shows its love to you
