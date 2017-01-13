@@ -39,10 +39,10 @@ links:
 projects:
   - title: ocarina of time
     name: interactive treasure chest
-    url: https://www.buoydontfloat.com/ocarina/
+    url: http://www.buoydontfloat.com/ocarina/
   - title: haiku machine
     name: haiku machine
-    url: https://www.buoydontfloat.com/haiku-machine/
+    url: http://www.buoydontfloat.com/haiku-machine/
   - title: canvas-background
     name: canvas background
     url: https://github.com/epylinkn/canvas-background
