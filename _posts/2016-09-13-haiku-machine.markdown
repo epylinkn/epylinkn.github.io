@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Unknown Pleasures inspired sketch"
+title:  "Project: Haiku Machine"
 date:   2016-09-13 17:33:55 -0400
 categories: physicalcomputing
 ---
