@@ -1,0 +1,71 @@
+---
+layout: post
+title:  "Project: Ocarina of Time"
+date:   2016-09-12 17:33:55 -0400
+categories: physicalcomputing
+---
+
+2016 was my first (and so far only) year at Burning Man. Knowing just a
+little about the spirit of Burning Man, and having a month's sabbatical,
+I knew from the outset that I wanted to contribute something to the art
+community.
+
+Armed with newfound physical computing knowledge from ITP 2016 Camp, I
+set out to build an interactive art installation.
+
+In truth, I may have spent more weeks brainstorming than executing. In
+the end, I decided that I wanted my art piece to spark joy. Inspired by
+this popular photo (BM photo of baby in adult glowing), and fueled by
+recent efforts to channel my inner child (gosh learning is
+fun!), I wanted to create something that captured the joy of discovery.
+
+My own childhood was filled with video games. Games became my escape --
+often becoming the video books I couldn't put down. I remember the hours
+of joy playing now-classic favorite role playing games like Final
+Fantasy 7 and Zelda. Wanting so badly to recreate this joy in myself and
+to share this joy with others, I narrowed my most memorable moments to
+stumbling upon secrets and treasures and chance.
+
+[Watching this GIF STILL sparks joy in me.](OCARINA OF TIME CHEST GIF)
+
+In the end, I decided to recreate this moment as best I could.
+
+Using a giant trunk chest found secondhand at urban ore, I started
+piecing the project together.
+
+First off, I really wanted to spark the joy of discovery and fortune. I
+decided that the final chest would be dark. However, if a person is in
+near proximity, which I calibrated at 10-20 feet, the chest would reveal
+itself. So, much like in the video games of inspiration, my chest was
+encircled by LEDs and used an arduino & proximity sensor that when
+triggered, lit
+up the LEDs just enough to bring attention to the chest.
+
+Once that was working, I focused my efforts on the bigger problem of
+what to reveal inside the chest. Harking back to my childhood, I
+remember the feeling of opening each chest, hoping that I'd receive a
+rare gift -- perhaps a sword or a map or a heart. And so, I wanted to
+add an element of randomness in the event that multiple people chance
+upon the chest. So in a modern twist, I created an raspi-powered LED
+panel that
+displayed random emojis that triggered when the chest was opened. Now,
+each opening of the chest yielded something different.
+
+POST MORTEM:
+- Specific to Burning Man, lighting and portability were huge
+  challenges. The chest wasn't lit up well enough and so it became a bit
+  of a hazard to be placed in the open playa. Portability proved tough,
+  but
+  with a online crash course in batteries, I was able to keep the chest
+  portable, with some effort around checking in every now and then for
+  battery replacement.
+- Start sooner! Components are so much cheaper when they don't need to
+  be rush delivered. =P
+- TIP120s vs MOSFETS -- read up and be prepared with extras!  - "Measure twice, cut once." I bought 4 LED panels to sit inside the chest but the 2x2 arrangement didn't fit properly so I went with a
+  single panel design. =[
+- Understand the SCALE of Burning Man! In it's next incarnation, I
+  want
+  the chest to be life-sized. Big enough that one need tippy-toe
+  or a
+  stool to peer deep into the awarded treasure. Big size for big
+  awe!
