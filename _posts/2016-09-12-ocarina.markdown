@@ -49,9 +49,10 @@ upon the chest. So in a modern twist, I created an raspi-powered LED
 panel that displayed random emojis that triggered when the chest was opened. Now,
 each opening of the chest yielded something different.
 
-POST MORTEM:
+## POST MORTEM:
 
 - Specific to Burning Man, lighting and portability were huge challenges. The chest wasn't lit up well enough and so it became a bit of a hazard to be placed in the open playa. Portability proved tough, but with a online crash course in batteries, I was able to keep the chest portable, with some effort around checking in every now and then for battery replacement.
 - Start sooner! Components are so much cheaper when they don't need to be rush delivered. =P
-- TIP120s vs MOSFETS -- read up and be prepared with extras!  - "Measure twice, cut once." I bought 4 LED panels to sit inside the chest but the 2x2 arrangement didn't fit properly so I went with a single panel design. =[
+- TIP120s vs MOSFETS -- read up and be prepared with extras!
+- "Measure twice, cut once." I bought 4 LED panels to sit inside the chest but the 2x2 arrangement didn't fit properly so I went with a single panel design. =[
 - Understand the SCALE of Burning Man! In it's next incarnation, I want the chest to be life-sized. Big enough that one need tippy-toe or a stool to peer deep into the awarded treasure. Big size for big awe!
