@@ -42,3 +42,54 @@ normalize()
   position: fixed;
   z-index: -1;
 }
+
+/* Masonry Grid */
+.grid {
+  max-width: 90%;
+  margin: 0 auto 1.875rem;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: .01rem;
+}
+.grid-sizer,
+.grid-item { width: 32%; }
+.gutter-sizer {
+  width: 2%
+}
+
+.grid-item {
+  margin-bottom: 2%;
+  background-color: blueviolet;
+}
+
+.grid-item--width2 { width: 66%; }
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  .grid-item, .grid-sizer { width: 100%; }
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  .grid-item, .grid-sizer { width: 49%; }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .grid-item, .grid-sizer { width: 49%; }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  .grid-item, .grid-sizer { width: 32%; }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+  .grid-item, .grid-sizer { width: 32%; }
+}
+

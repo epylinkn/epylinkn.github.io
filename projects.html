@@ -7,12 +7,29 @@ description: "Take a look at my beautiful projects."
 
 <h1>Projects</h1>
 
-{% for project in site.projects %}
-  <ul class="post-list">
-    <li>
-      <a href="{{ project.url }}">
-        {{ project.title }}
-      </a>
-    </li>
-  </ul>
-{% endfor %}
+  <div class="grid">
+    <div class="grid-sizer"></div>
+    <div class="gutter-sizer"></div>
+    {% for project in site.projects %}
+      <div class="grid-item">
+        <a href="{{ project.url }}">
+          <img src="http://placekitten.com/g/300/200" />
+        </a>
+        <a href="{{ project.url }}">
+          <h3 style="text-align: center;">{{ project.title }}</h3>
+        </a>
+        <p>Lorem ipsum dolor</p>
+      </div>
+    {% endfor %}
+  </div>
+
+<script type="text/javascript" src="{{ "/js/masonry.pkgd.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript">
+  var elem = document.querySelector('.grid');
+  var msnry = new Masonry(elem, {
+    itemSelector: '.grid-item',
+    columnWidth: '.grid-sizer',
+    gutter: '.gutter-sizer',
+    percentPosition: true
+  });
+</script>
