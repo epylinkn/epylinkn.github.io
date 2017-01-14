@@ -1,18 +1,17 @@
 ---
 layout: minimal
-title: "About me"
-permalink: /about/
+title: "# About"
+permalink: /about/index.html
 description: "Some description about BuoyDontFloat..."
 ---
 
-<img itemprop="image" class="img-rounded about_perfil" src="/assets/img/profile.jpg" alt="BuoyDontFloat">
+<h1>About</h1>
 
-<h2>My projects</h2>
+<ul class="post-list">
+  Life behaves like a shoreline with its inevitable ebb and flow.
+  One moment you see everything clearly and the next moment the walls feel as if they've been there all along.
+  Funny how in low times, you still have some sense of the happier times on there way or there not too long ago.
+  It's a testament to the cyclical behavior of life’s unfolding.
 
-<div class="aboutme">
-	<ul class="recent">
-		{% for project in site.projects %}
-	    	<li><a href="{{ project.url}}"><h2 class="post-title" itemprop="name">{{ project.name }}</h2></a></li>
-	    {% endfor %}
-	</ul>
-</div>
+  I'm a developer &amp; artist living in Brooklyn. Here is where I express myself. I made it for you.
+</ul>
