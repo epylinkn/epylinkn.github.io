@@ -13,7 +13,7 @@ description: "Take a look at my beautiful projects."
   {% for project in site.projects %}
     <div class="grid-item">
       <a href="{{ project.url }}">
-        <img src="http://placekitten.com/g/300/200" />
+        <img src="{{ project.image }}" />
       </a>
       <a href="{{ project.url }}">
         <h3 style="text-align: center;">{{ project.title }}</h3>

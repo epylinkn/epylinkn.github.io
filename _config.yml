@@ -40,11 +40,19 @@ projects:
   - title: ocarina of time
     name: interactive treasure chest
     url: http://www.buoydontfloat.com/ocarina/
+    image: /assets/img/ocarina/cover.jpg
+  - title: paranoia (demo)
+    name: paranoia (demo)
+    url: /unknown-pleasures/
+    image: /assets/img/paranoia.gif
   - title: haiku machine
     name: haiku machine
     url: http://www.buoydontfloat.com/haiku-machine/
+    image: http://placekitten.com/g/300/200
   - title: canvas-background
     name: canvas background
     url: https://github.com/epylinkn/canvas-background
+    image: http://placekitten.com/g/300/200
+
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
