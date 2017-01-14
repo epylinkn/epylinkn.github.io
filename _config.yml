@@ -34,7 +34,7 @@ links:
   - title: posts
     url: /posts
   - title: projects
-    url: /series
+    url: /projects
 # projects in header index
 projects:
   - title: ocarina of time
