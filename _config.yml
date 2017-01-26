@@ -48,11 +48,11 @@ projects:
   - title: haiku machine
     name: haiku machine
     url: http://www.buoydontfloat.com/haiku-machine/
-    image: http://placekitten.com/g/300/200
+    image: /assets/img/haiku/cover.gif
   - title: canvas-background
     name: canvas background
     url: https://github.com/epylinkn/canvas-background
-    image: http://placekitten.com/g/300/200
+    image: /assets/img/canvas_background.gif
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']

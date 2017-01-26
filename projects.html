@@ -24,12 +24,15 @@ description: "Take a look at my beautiful projects."
 </div>
 
 <script type="text/javascript" src="{{ "/js/masonry.pkgd.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/js/imagesloaded.pkgd.min.js" | prepend: site.baseurl }}"></script>
 <script type="text/javascript">
-  var elem = document.querySelector('.grid');
-  var msnry = new Masonry(elem, {
-    itemSelector: '.grid-item',
-    columnWidth: '.grid-sizer',
-    gutter: '.gutter-sizer',
-    percentPosition: true
+  var container = document.querySelector('.grid');
+  imagesLoaded(container, function() {
+    var msnry = new Masonry(container, {
+      itemSelector: '.grid-item',
+      columnWidth: '.grid-sizer',
+      gutter: '.gutter-sizer',
+      percentPosition: true
+    });
   });
 </script>
