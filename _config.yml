@@ -41,6 +41,10 @@ projects:
     name: interactive treasure chest
     url: http://www.buoydontfloat.com/ocarina/
     image: /assets/img/ocarina/cover.jpg
+  - title: 10x Command Fu
+    name: 10x Command Fu
+    url: http://www.buoydontfloat.com/10x-command-line-fu
+    image: /assets/img/command-line-cover.png
   - title: paranoia (demo)
     name: paranoia (demo)
     url: /unknown-pleasures/
