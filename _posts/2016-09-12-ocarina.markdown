@@ -26,7 +26,8 @@ Fantasy 7 and Zelda. Wanting so badly to recreate this joy in myself and
 to share this joy with others, I narrowed my most memorable moments to
 stumbling upon secrets and treasures and chance.
 
-[Watching this GIF STILL sparks joy in me.](OCARINA OF TIME CHEST GIF)
+Watching this gif STILL sparks joy in me.
+![](/assets/img/zeldasmall.gif)
 
 In the end, I decided to recreate this moment as best I could.
 
@@ -48,6 +49,21 @@ add an element of randomness in the event that multiple people chance
 upon the chest. So in a modern twist, I created an raspi-powered LED
 panel that displayed random emojis that triggered when the chest was opened. Now,
 each opening of the chest yielded something different.
+
+![](/assets/img/ocarina/01.jpg)
+Early concept. Testing the PIR sensor.
+![](/assets/img/ocarina/02.jpg)
+Sneak peek at the INTERNALS!
+![](/assets/img/ocarina/03.jpg)
+IT WORKS!!!
+![](/assets/img/ocarina/04.jpg)
+For you, a KEY.
+![](/assets/img/ocarina/05.jpg)
+And for you, a LIGHTNING BOLT.
+![](/assets/img/ocarina/06.jpg)
+Look what Milad found.
+![](/assets/img/ocarina/07.jpg)
+Sunset... because burning man!
 
 ## POST MORTEM:
 
