@@ -96,23 +96,20 @@ normalize()
 
 /* try to animate */
 .person {
-  // width: 300px;
-  // height: 300px;
   height: 800px;
   position: absolute;
   bottom: -100%;
   left: 0;
   right: 0;
-  // border-radius: 100px;
   animation-name: easeOutBounce;
   animation-duration: 3s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
-
-  // animation: easeOutBounce 3s linear infinite;
-  /*Set our animation play state to paused initially */
   animation-play-state: paused;
-  // outline: 1px solid red;
+}
+
+.person > img {
+  background: white;
 }
 
 .person:hover {
