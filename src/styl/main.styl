@@ -93,3 +93,48 @@ normalize()
   .grid-item, .grid-sizer { width: 32%; }
 }
 
+
+/* try to animate */
+.person {
+  // width: 300px;
+  // height: 300px;
+  height: 800px;
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  // border-radius: 100px;
+  animation-name: easeOutBounce;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+
+  // animation: easeOutBounce 3s linear infinite;
+  /*Set our animation play state to paused initially */
+  animation-play-state: paused;
+  // outline: 1px solid red;
+}
+
+.person:hover {
+  /* Toggle our animation play state to running when we are hovering over our sticker */
+  animation-play-state: running;
+}
+
+@keyframes spin {
+  100% { transform: rotate(1turn); }
+}
+
+@keyframes easeOutBounce {
+  0%   { transform: rotate(-360deg); animation-timing-function:ease-in; }
+  // bounce
+  50%  { transform: rotate(30deg); animation-timing-function:ease-out; }
+  68%  { transform: rotate(-30deg); animation-timing-function:ease-in; }
+  // bounce
+  80%  { transform: rotate(16deg); animation-timing-function:ease-out; }
+  89%  { transform: rotate(-13deg); animation-timing-function:ease-in; }
+  // bounce
+  94%  { transform: rotate(3deg); animation-timing-function:ease-out; }
+  97%  { transform: rotate(-3deg); animation-timing-function:ease-in; }
+  // bounce
+  100% { transform: rotate(3deg); animation-timing-function:ease-out; }
+}
