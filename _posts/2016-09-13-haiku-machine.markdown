@@ -2,7 +2,7 @@
 layout: post
 title:  "Project: Haiku Machine"
 date:   2016-09-13 17:33:55 -0400
-categories: physicalcomputing
+tags: physicalcomputing
 ---
 
 My second gift for Burning Man, while functional, didn't

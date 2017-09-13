@@ -6,7 +6,7 @@ description: "Take a look at my beautiful tags."
 ---
 
 <h1>Tags</h1>
-{% for tag in site.categories %}
+{% for tag in site.tags %}
   <span class="tag-title" id="{{ tag[0] | slugify }}">{{ tag[0] | capitalize }}</span>
   <ul class="post-list">
     {% assign pages_list = tag[1] %}

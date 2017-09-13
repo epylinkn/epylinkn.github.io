@@ -2,7 +2,7 @@
 layout: post
 title:  "Project: Ocarina of Time"
 date:   2016-09-12 17:33:55 -0400
-categories: physicalcomputing
+tags: physicalcomputing
 ---
 
 2016 was my first (and so far only) year at Burning Man. Knowing just a

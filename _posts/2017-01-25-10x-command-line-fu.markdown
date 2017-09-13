@@ -2,7 +2,7 @@
 layout: post
 title:  "Presentation: 10x Command Line Fu"
 date:   2017-01-25 17:33:55 -0400
-categories: educating
+tags: educating
 ---
 
 I taught this intermediate command line session at ITP Summer Camp. My goal was to introduce people to the potential of the command

@@ -2,7 +2,7 @@
 layout: post
 title:  "Bash harder with emojis and stuff!"
 date:   2016-07-09 16:33:55 -0400
-categories: bash h4x0r
+tags: bash h4x0r
 ---
 
 I've been spending a lot of time in iTerm lately juggling multiple tabs and multiple projects. And I'm getting a bit distracted with the multitasking load. I don't really expect that to change, but I was thinking that it'd be nice to take a moment and spruce up my dotfiles to make things more readable.

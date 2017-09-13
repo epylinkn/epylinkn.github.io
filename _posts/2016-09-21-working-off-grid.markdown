@@ -3,7 +3,7 @@ layout: post
 title:  "How to prepare for working off the grid (because one day I will
 fulfill my climb and work dreams)"
 date:   2016-09-21 17:33:55 -0400
-categories: funny bash wget climb
+tags: funny bash wget climb
 ---
 
 Currently, I've got some money tucked away and a lot of free time. And so the time might
