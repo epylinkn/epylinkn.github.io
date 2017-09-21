@@ -9,4 +9,9 @@ jekyll serve
 cp <old_post>.markdown <new_post>.markdown  # write
 jekyll build                                # build
 git commit && git push                      # deploy
+
+# dealing with images
+1. put them in `src/`
+2. `$ exiftran -ai src/img/**/*`
+3. `gulp imagemin`
 ```
