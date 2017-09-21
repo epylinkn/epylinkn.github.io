@@ -1,12 +1,15 @@
 ---
 layout: post
-title: "Week 2: Signage Analysis"
+title: "Week 2: Signage"
 date: 2017-09-20 17:33:55 -0400
 tags: visual-language
 categories: itp-visual-language
 ---
 
-## Good signage!
+Signage in the Wild!
+--------------------
+
+### Good Signage!
 
 Mighty Bowl is so good and I never realized how much of my love for it as a lunch spot is influenced by great signage.
 
@@ -20,10 +23,9 @@ And while I normally hate anything that is build-your-own, Mighty Bowl does it t
 
 ![Vien Logo](/assets/img/visual-language/signage/vien-logo.jpg)
 
-Vien is another lunch spot I love, particularly their tag line: Light. Fresh. Asian. (Part of that love stemming from those three adjectives also describing me!) But it's great at getting the point across.
+Vien is another lunch spot I love, particularly their tag line: _Light. Fresh. Asian._ (Part of that love stemming from those three adjectives also describing me!) But it's great at getting the point across.
 
-
-## Bad signage!
+### Bad Signage!
 
 Here's an example of lovely restaurant, terrible sign. The brown text on vertical-olive stripes really hurts my eyes and is incredibly difficult to read.
 
@@ -40,3 +42,11 @@ Subway signs that designate uptown / downtown have ALWAYS bothered me. It's on t
 This just doesn't belong here... It's cut off and facing the sidewalk...
 
 ![Truck Loading Street Sign](/assets/img/visual-language/signage/street-sign-truck-loading.jpg)
+
+
+Redesigning Signage!
+--------------------
+
+```
+TODO: Re-imagine Laundromat Horror
+```
