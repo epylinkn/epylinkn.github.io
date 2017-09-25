@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Week 2: Parking Hell [WIP]"
+title: "Week 2: Parking Hell"
 date: 2017-09-20 15:33:55 -0400
-tags: visual-language
+tags: visual-language wip
 categories: itp-visual-language
 ---
 

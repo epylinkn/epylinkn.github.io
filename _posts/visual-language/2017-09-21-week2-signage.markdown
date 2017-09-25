@@ -2,7 +2,7 @@
 layout: post
 title: "Week 2: Signage"
 date: 2017-09-20 17:33:55 -0400
-tags: visual-language
+tags: visual-language wip
 categories: itp-visual-language
 ---
 
