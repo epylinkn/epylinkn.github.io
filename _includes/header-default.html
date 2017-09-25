@@ -21,9 +21,12 @@
 
     <ul class="recent">
       <p class="recent-title">RECENT POSTS:</p>
-      {% for post in site.posts limit:3 %}
+
+      {% assign counter = 0 %}
+      {% for post in site.posts %}
 
         {% unless post.tags contains 'wip' %}
+          {% assign counter = counter | plus: 1 %}
           <li>
             <a href="{{ post.url | prepend: site.baseurl }}">
               <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
@@ -31,6 +34,9 @@
           </li>
         {% endunless %}
 
+        {% if counter == 5 %}
+          {% break %}
+        {% endif %}
       {% endfor %}
     </ul>
 
