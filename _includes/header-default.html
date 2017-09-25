@@ -1,48 +1,52 @@
 <header class="header-site" role="banner">
-    <div class="content">
+  <div class="content">
 
-      <div class="person">
-        <img class="catty" src="{{ "/assets/img/octopunk.gif" | prepend: site.baseurl | prepend: site.url }}" alt="" />
-      </div>
+    <!-- <div class="person">
+      <img class="catty" src="{{ "/assets/img/octopunk.gif" | prepend: site.baseurl | prepend: site.url }}" alt="" />
+    </div> -->
 
-        <h1>
-            <span class="site-title">{{site.username}}</span>
-        </h1>
+    <h1>
+      <span class="site-title">{{site.username}}</span>
+    </h1>
 
-        <div class="icons-home">
-            <a aria-label="My Github" target="_blank" href="https://github.com/{{site.github_username}}">
-                <svg class="icon icon-github-alt"><use xlink:href="#icon-github-alt"></use></svg>
-            </a>
+    <div class="icons-home">
+      <a aria-label="My Github" target="_blank" href="https://github.com/{{site.github_username}}">
+        <svg class="icon icon-github-alt"><use xlink:href="#icon-github-alt"></use></svg>
+      </a>
 
-            <a aria-label="My Twitter" target="_blank" href="https://twitter.com/{{site.twitter_username}}">
-                <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
-            </a>
-        </div>
-
-        <ul class="recent">
-            <p class="recent-title">RECENT POSTS:</p>
-             {% for post in site.posts limit:3 %}
-                <li>
-                    <a href="{{ post.url | prepend: site.baseurl }}">
-                        <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
-                    </a>
-                </li>
-              {% endfor %}
-        </ul>
-
-        <!--
-        <ul class="recent">
-            <p class="recent-title">RECENT PROJECTS:</p>
-             {% for project in site.projects limit:3 %}
-                <li>
-                    <a href="{{ project.url}}">
-                        <h2 class="post-title" itemprop="name">{{ project.name }}</h2>
-                    </a>
-                </li>
-              {% endfor %}
-        </ul>
-        -->
-
+      <a aria-label="My Twitter" target="_blank" href="https://twitter.com/{{site.twitter_username}}">
+        <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
+      </a>
     </div>
-    {% include menu-search.html %}
+
+    <ul class="recent">
+      <p class="recent-title">RECENT POSTS:</p>
+      {% for post in site.posts limit:3 %}
+
+        {% unless post.tags contains 'wip' %}
+          <li>
+            <a href="{{ post.url | prepend: site.baseurl }}">
+              <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
+            </a>
+          </li>
+        {% endunless %}
+
+      {% endfor %}
+    </ul>
+
+    <!--
+    <ul class="recent">
+        <p class="recent-title">RECENT PROJECTS:</p>
+         {% for project in site.projects limit:3 %}
+            <li>
+                <a href="{{ project.url}}">
+                    <h2 class="post-title" itemprop="name">{{ project.name }}</h2>
+                </a>
+            </li>
+          {% endfor %}
+    </ul>
+    -->
+
+  </div>
+  {% include menu-search.html %}
 </header>
