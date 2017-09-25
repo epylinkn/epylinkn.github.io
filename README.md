@@ -15,3 +15,11 @@ git commit && git push                      # deploy
 2. `$ exiftran -ai src/img/**/*`
 3. `gulp imagemin`
 ```
+
+TODOS
+-----
+
+- crop images to a standard width (images are currently 7-10 mb =[)
+- un-version control `src/img/**/*`
+- add editorconfig
+- move away from gulpy / browserify / .styl and towards webpack...
