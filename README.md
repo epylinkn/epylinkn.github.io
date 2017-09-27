@@ -23,3 +23,5 @@ TODOS
 - un-version control `src/img/**/*`
 - add editorconfig
 - move away from gulpy / browserify / .styl and towards webpack...
+- jekyll assets plugin???
+- .styl to .sass PLEASE!
