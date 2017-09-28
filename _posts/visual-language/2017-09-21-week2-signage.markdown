@@ -42,11 +42,3 @@ Subway signs that designate uptown / downtown have ALWAYS bothered me. It's on t
 This just doesn't belong here... It's cut off and facing the sidewalk...
 
 ![Truck Loading Street Sign](/assets/img/visual-language/signage/street-sign-truck-loading.jpg)
-
-
-Redesigning Signage!
---------------------
-
-```
-TODO: Re-imagine Laundromat Horror
-```
