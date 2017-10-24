@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Week 1: Meditations on Plagiarism and Remixes [WIP]"
+title:  "Meditations on Plagiarism and Remixes [WIP]"
 date:   2017-09-15 17:33:55 -0400
 tags: wip
 categories: itp-video-and-sound
