@@ -26,9 +26,9 @@
     // console.log(e.key);
     if(! $('.search-form').hasClass('active')){
       switch(e.key) {
-        case " ":
-          $('a#slide').trigger('click');
-          break;
+        // case " ":
+        //   $('a#slide').trigger('click');
+        //   break;
         case "Escape":
           $('#fade').trigger('click');
           break;
