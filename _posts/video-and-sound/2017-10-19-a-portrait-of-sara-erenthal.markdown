@@ -20,3 +20,26 @@ Final project video for "Portrait of a Specialist". A quick glimpse into the lif
     <a href="https://vimeo.com">Vimeo</a>.
   </p>
 </div>
+
+
+### Tips for Future Anthony
+
+Regarding interviews:
+- Use a lens hand wave when there are segments you definitely want to
+use
+- Get two camera angles! They'll help with awkward jumpcuts whe you need
+them
+
+
+Video tips:
+- Ken Burns - pan and zoom stills so they are useful!
+- Try your best to do video only / stills only
+- Collect video / stills on separate days!
+- Get variations of shots you know you'll need
+  - wide
+  - medium
+  - detail
+  - portrait
+  - macro
+
+[Art of the Title](what was the link again?)
