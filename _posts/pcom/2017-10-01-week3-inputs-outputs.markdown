@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Digital Input, Analog Input and Digital Output"
-date:   2017-09-24 17:33:55 -0400
+title:  "Week 3: Digital Input, Analog Input and Digital Output"
+date:   2017-10-01 17:33:55 -0400
 tags: wip
 categories: itp-pcom
 ---
