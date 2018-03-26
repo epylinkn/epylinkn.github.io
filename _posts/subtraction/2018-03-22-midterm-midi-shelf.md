@@ -2,7 +2,7 @@
 layout: post
 title:  "Midterm: MIDI Wall Shelf (WIP)"
 date:   2018-03-22 00:00:01 -0400
-tags: wip
+tags: itp
 categories: subtraction
 ---
 

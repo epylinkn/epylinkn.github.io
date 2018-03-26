@@ -2,7 +2,7 @@
 layout: post
 title:  "Flashlight: Optic Blast!"
 date:   2017-10-31 00:00:01 -0400
-tags: wip
+tags: itp
 categories: intro-fab
 ---
 

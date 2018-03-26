@@ -2,7 +2,7 @@
 layout: post
 title:  "Week 3: ¡Expressive Words!"
 date:   2017-09-27 18:33:55 -0400
-tags: visual-language illustrator wip
+tags: visual-language illustrator
 categories: itp-visual-language
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Lasercutter: RasPi Leaves"
 date:   2017-11-15 00:00:01 -0400
-tags: wip
+tags: itp
 categories: intro-fab
 ---
 

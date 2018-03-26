@@ -2,7 +2,7 @@
 layout: post
 title:  "Midi Controller: Separate but Together"
 date:   2018-02-13 00:00:01 -0400
-tags: wip
+tags: itp
 categories: tangible-interaction
 ---
 

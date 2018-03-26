@@ -2,7 +2,7 @@
 layout: post
 title:  "Skill Builder: VectorWorks, MasterCAM, and Techno CNC"
 date:   2018-02-21 00:00:01 -0400
-tags: wip
+tags: itp
 categories: subtraction
 ---
 

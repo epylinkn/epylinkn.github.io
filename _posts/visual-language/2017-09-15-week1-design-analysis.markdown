@@ -2,7 +2,7 @@
 layout: post
 title:  "Week 1: Design Analysis"
 date:   2017-09-15 17:33:55 -0400
-tags: visual-language
+tags: visual-language wip
 categories: itp-visual-language
 ---
 

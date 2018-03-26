@@ -2,7 +2,7 @@
 layout: post
 title:  "Stop Motion: Super Mario"
 date:   2017-11-13 00:00:01 -0400
-tags: wip
+tags: itp
 categories: itp-animation
 ---
 
@@ -11,4 +11,3 @@ categories: itp-animation
   height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
 </div>
-

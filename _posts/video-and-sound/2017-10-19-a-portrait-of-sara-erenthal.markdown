@@ -2,7 +2,7 @@
 layout: post
 title:  "A Portrait Of: Sara Erenthal"
 date:   2017-10-21 17:33:55 -0400
-tags: wip
+tags: itp
 categories: itp-video-and-sound
 ---
 
