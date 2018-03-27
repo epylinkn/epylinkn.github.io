@@ -1,0 +1,21 @@
+---
+layout: category
+title: "# 100 Days of Writing"
+permalink: /100/index.html
+description: "on & on & on & on"
+---
+
+<h1>100 Days of Writing</h1>
+{% for category in site.categories %}
+  {% if category[0] == '100' %}
+
+    {% assign pages_list = category[1] %}
+    {% for post in pages_list reversed %}
+      <div>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
+      </div>
+    {% endfor %}
+    {% assign pages_list = nil %}
+  {% endif %}
+{% endfor %}
