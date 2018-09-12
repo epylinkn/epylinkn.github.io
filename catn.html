@@ -1,0 +1,21 @@
+---
+layout: category
+title: "# Computational Approaches to Narrative"
+permalink: /catn/index.html
+description: "once upon a time..."
+---
+
+<h1>Computational Approaches to Narrative</h1>
+{% for category in site.categories %}
+  {% if category[0] == 'catn' %}
+
+    {% assign pages_list = category[1] %}
+    {% for post in pages_list reversed %}
+      <div>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
+      </div>
+    {% endfor %}
+    {% assign pages_list = nil %}
+  {% endif %}
+{% endfor %}
