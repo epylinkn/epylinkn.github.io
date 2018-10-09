@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Twine: Ghosthunter Academy"
-date:   2019-09-18 00:00:01 -0400
+date:   2018-09-18 00:00:01 -0400
 tags: wip
 categories: catn
 ---
 
-Play my work-in-progress twine here: 
+Play my work-in-progress twine here:
 [[Ghosthunter Academy]](http://ghosthunter-academy.buoydontfloat.com)
 
 ---
@@ -39,5 +39,3 @@ I doubt I'll revisit this anytime soon, but something Twine might benefit greatl
 But if I were to continue I would find a way to automate the testing of branches and output the stories so I don't have to continuously click through my story.
 
 Another tactic to explore is having waypoint nodes (read: passages), and so a story can expand in many complex ways and then converge to a single passage that begins the next phase of the exam.
-
-
