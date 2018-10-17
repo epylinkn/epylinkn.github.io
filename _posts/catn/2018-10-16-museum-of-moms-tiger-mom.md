@@ -97,6 +97,10 @@ My Markov chain model generated a lot of names and as you can imagine the subjec
 
 Now that I had control over the names and because they were unisex, I needed to pick a gender pronoun and update the story to use a consistent pronoun. Again, I used spaCys part-of-speech taggers and replaced as desired.
 
+Check out the [Colab Notebook](https://colab.research.google.com/drive/1u1dSf5JaC7YFGov8zaNU1yoekSycDHRM).
+
+And various source code experiments here: [GitHub](https://github.com/epylinkn/tiger-mom).
+
 What's Next
 -----------
 
