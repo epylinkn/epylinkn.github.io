@@ -117,7 +117,7 @@ Normalizing Data
 
 Because the internet said it's a good idea, we decided to normalize our data with the simple `MinMaxScaler` from `sklearn`. This puts all our readings within 0 and 1, instead of the messy negative velocities.
 
-```
+```python
 from sklearn.preprocessing import MinMaxScaler
 
 dataset = data.values
@@ -164,7 +164,7 @@ Training the Model
 
 ### Stacked LSTM for sequence classification
 
-```
+```python
 data_dim = 42
 timesteps = 200
 num_classes = 2
@@ -188,7 +188,7 @@ model.fit(x_train, y_train,
 Evaluating the Model
 --------------------
 
-Unfortunately, we aren't getting great results... at all. When we run the `x_train` dataset through the model we see that everything is classified as not-dancing. It's not the proper way to evaluate a model but we expect to see at least an overfitted correlation.
+Unfortunately, we aren't getting great results... at all. When we run the `x_train` dataset through the model we see that most everything is classified as not-dancing. It's not the proper way to evaluate a model but we expect to see at least an overfitted correlation.
 
 ```
 model.predict(x_train)
