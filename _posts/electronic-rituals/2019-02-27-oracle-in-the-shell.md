@@ -20,22 +20,22 @@ Demo
   </p>
 </div>
 
-I missed class this last week where we practiced reading tarot cards in class. So naturally, I decided to do self-readings for myself each morning. Sometimes, I'll do self-readings twice or more! It's reached a point where as I leave my house and collect my phone, wallet & keys, I ponder if I should also bring my Tarot Deck.
+I missed class last week where we practiced reading tarot cards in class so my main experience with tarot has been self-readings at home. (Sometimes, I'll do self-readings twice or more!) I'm enjoying it so much that as I leave my house and collect my phone, wallet & keys, I ponder if I should also bring my tarot deck.
 
-Overall, I found that self-readings to be a very pleasant start to the day. Each reading served as a reminder to slow down and internalize a problem, and start to think through that problem in a more step-by-step fashion.
+I find self-readings to be a very pleasant start to the day and for now it's find a nice spot in my morning routine after my breathing meditations. Each reading serves as a reminder to slow down and internalize a problem, then think through that problem in a calm step-by-step fashion.
 
-I realized this isn't too different from the practice of rubber-ducking that happens in software development, a practice where one steps away from the problem to explain the situation to an imaginary duck. Except, rubber-ducking doesn't go as far as Tarot... until now.
+I realized this isn't too different from the practice of rubber-ducking that happens in software development, a practice where one steps away from the problem to explain the situation to an imaginary duck. Except, rubber-ducking doesn't go as far as tarot... until now.
 
-I decided that I wanted to get a Tarot reading when stuck in the middle of a coding bug, as a fun way to step away from a problem and to think about the problem in a different way.
+I thought it would be nice to get a tarot reading when stuck in the middle of a coding bug, as a fun way to step away from the problem and to begin understanding the problem in a different way.
 
 Design
 ------
 
-I chose to start with a 3-card spread, mainly because it seems like the minimum number of cards needed for a meaningful tarot reading. With the scenario of "escape from your coding bugs" in mind, I chose to do the reading the form of a 3-card spread representing (i) situation, (ii) action, (iii) outcome.
+I chose to start with a 3-card spread, mainly because it seems like the minimum number of cards needed for a meaningful tarot reading. With the scenario of "escape from your coding bugs" in mind, I chose to do the reading in the form of a 3-card spread representing (i) situation, (ii) action, and (iii) outcome.
 
-While I love the standard tarot deck, I was interested in what might be more meaningful in my programming context. A moment from last week came into mind, where I accidentally deleted my iCloud Drive containing all my thesis work to date... `rm -rf icloud-drive`. It got me thinking that `rm` can be analogous to `Death`. Building on that, I found most of the standard shell commands can be interpreted in interested ways, almost personified similarly to programs-as-humans in the Matrix.
+While I love the standard tarot deck, I was interested in what might be more meaningful in my programming context. A moment from last week came into mind, where I accidentally deleted my iCloud Drive containing all my thesis work to date... `rm -rf icloud-drive`. (Luckily, I had a backup.) It got me thinking that `rm` can be shell's digital analog to `Death`. Building on that, I found most of the standard shell commands can be interpreted in interesting ways, each personified similarly to programs-as-humans in the Matrix.
 
-And **Oracle in the Shell** was born.
+Lot's of ruby headaches later, **Oracle in the Shell** was born.
 
 Implementation
 --------------
@@ -203,4 +203,4 @@ frame(:query, all_programs, cards)
 Takeaways
 ---------
 
-It seemed natural to show the descriptions from each shell command's `man` page, mostly because I don't what some of the shell commands do. However, they're technically dry and not that interesting as I hoped. If I revisit this, I'd like to write my own interpretations of each shell command.
+It seemed natural to show the descriptions from each shell command's `man` page, mostly because I don't know what some of the shell commands do. However, I find the descriptions technically dry and not that interesting for interpretations as I hoped. If I revisit this, I'd like to write my own interpretations of each shell command.
