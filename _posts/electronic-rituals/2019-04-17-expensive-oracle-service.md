@@ -10,20 +10,20 @@ categories: electronic-rituals
 
 The inspiration for this project revolves around the aptly named concept of "Oracle" in the blockchain world. In smart contracts on the blockchain, there isn't a great way to get external data onto the chain, e.g. you can't just make an API request to the outside world in a smart contract. But this is an important need! Smart contracts that depend on future events, e.g. bets and predictions, depend on receiving reliable information from the external world.
 
-The solution to this is a concept of an "Oracle", generally a trusted third-party that is authorized to introduce external world data to the contract. I wanted to find a way to make this "Oracle" and actual Oracle in my *Daily Tarot Card*.
+The solution to this is a concept of an "Oracle", generally a trusted third-party that is authorized to introduce external world data to the contract. I wanted to find a way to make this "Oracle" an actual Oracle in my *Daily Tarot Card*.
 
 Motivation
 ----------
 
-I really enjoyed the readings this week and ended up reading a lot about sources of entropy. I find it fascinating that in the world of computers to greatest source of entropy is between the screen and chair -- i.e the human!
+I really enjoyed the readings this week and ended up reading tangentially about sources of entropy. Fascinatingly, in the world of computers the greatest source of entropy is between the screen and chair -- i.e the human! I would have thought there would be more hardware entropy.
 
-However, one human doesn't really create enough entropy, as in they can game the system. Two would suffice, but somehow I felt like three independent humans was the needed entropy.
+However, one human doesn't really create enough entropy, as in they can game the system. Two would suffice, but somehow I felt like three independent humans was the needed entropy in a secure crowdsourcing of entropy.
 
 #### Intentional & Meaningful
 
-I was ok with something slow. And I wanted to allow the Oracles to be intentional... adding to the dialogue. I wanted it to be meaningfully generated, uniform random, and slow as to allow the querent to internalize their query -- i.e. the feeling of watching the tarot cards shuffle.
+For my random number generator, I was ok with something slow. And I wanted to allow the Oracles to be intentional... adding to the dialogue. I wanted it to be meaningfully generated, uniform random, and slow as to allow the querent to internalize their query -- i.e. the feeling of watching the tarot cards shuffle.
 
-Allowing Oracles input, but not allowing them to completely control the output.
+I initially started with a bit vector model, where Oracles input 0s and 1s which created a bit vector => number. However, I decided to allow Oracles input, though being sure to not allow them to completely control the output.
 
 Implementation
 --------------
@@ -44,19 +44,19 @@ function getCombinedHash() public view returns (bytes3 hash_) {
 
 At the core of the implementation, once all the Oracles have submitted their words to the contract, I concatenate them and hash them.
 
-In cryptography, a good hash function takes a random input and makes a near random, unpredictable output -- e.g. a single letter difference yields an entirely different hash. I like it because it's resilient to prediction by the Oracles (for the most part). Though it's a bit of a cheat and people don't do it often because hashing is expensive, but it works for the purpose here.
+In cryptography, a good hash function takes a random input and makes a near random, unpredictable output -- e.g. a single letter difference yields an entirely different hash. I like it because it's resilient to prediction by the Oracles (for the most part). Though it's a bit of a cheat and people don't do it often because hashing is expensive. It works well for the purpose here because we will get three random words from our Oracles.
 
 Flow
 ----
-NOTE: This was incredibly hard to test as there aren't a lot of eager, blockchain-literate, user-testing volunteers in my life so I tested it locally -- a local blockchain with a lots of fake metamask wallets.
+NOTE: This was incredibly hard to test as there aren't a lot of eager, blockchain-literate, user-testing volunteers in my life so I tested it locally -- a local blockchain with multiple fake metamask wallets.
 
-Screenshots to illustrate the basic flow.
+### Screenshots to illustrate the basic flow.
 
 ![alt](/assets/img/electronic-rituals/expensive-oracle-service/00-first-load.png)
-*On first load the Querent (also the contract owner) sees three panels for Oracles.*
+*On first load the Querent, who is also the contract owner, sees three panels for Oracles.*
 
 ![alt](/assets/img/electronic-rituals/expensive-oracle-service/01-adding-anthony.png)
-*The first Oracle is yourself, the Querent. This was done for ease of testing. Ideally, it would be an external expert.*
+*The first Oracle is yourself, the Querent. This was done for ease of testing. Ideally, it would be an external Oracle.*
 
 ![alt](/assets/img/electronic-rituals/expensive-oracle-service/02-adding-mark.png)
 *Adding the great Mark After Dark as one of my Oracles.*
@@ -68,22 +68,22 @@ Screenshots to illustrate the basic flow.
 *The Querent initiates the interaction by asking a Query.*
 
 ![alt](/assets/img/electronic-rituals/expensive-oracle-service/05-paying-for-the-query.png)
-*The Querent pays for the Query. This is a small side exploration of the assignment, but blockchain allows for lots of paywalls (and gas fees) and so I anticipate a bit of a reward system for participating Oracles. I have some interest in the importance of paywalls / taxes because I think it makes people act with more intent -- e.g. you're actually paying for your reading!*
+*The Querent pays for the Query. This is a small side exploration of the assignment, but blockchain allows for lots of paywalls (and gas fees) and so I anticipate a bit of a reward system for participating Oracles. I also have some interest in the importance of paywalls / taxes here because they make people act with more intent -- i.e. you're actually paying for your reading!*
 
 ![alt](/assets/img/electronic-rituals/expensive-oracle-service/06-oracles-advise.png)
-*Each Oracle sees the query and responds with a Four Letter Word advisement. This is an intentionally slow process because it must wait for all the Oracles and it must wait for the blockchain to confirm the transactions (~1 min). I wanted it slow because I do believe that shuffling and "meditating" is a key part of Tarot Reading. I choose Four Letter Words because they're enough characters to be expressive and still provide a decent amount of entropy.*
+*Each Oracle sees the query and responds with a Four Letter Word advisement. This is an intentionally slow process because it must wait for all the Oracles and it must wait for the blockchain to confirm the transactions (~1 min). I wanted it slow because I do believe that shuffling and "meditating" is a key part of Tarot Reading. I choose Four Letter Words because they're enough characters to be expressive (Oracles can interject meaning) and still provide a decent amount of entropy (26^4).*
 
 ![alt](/assets/img/electronic-rituals/expensive-oracle-service/07-advice-hidden.png)
-*Advice from each Oracle is hidden. Blockchain is great at this, although I didn't bother to implement it in full.*
+*Advice from each Oracle is hidden. Blockchain is great at this, although note I didn't bother to implement it securely.*
 
 ![alt](/assets/img/electronic-rituals/expensive-oracle-service/08-all-advice-received.png)
 *All Oracles have finished advising / prophesizing.*
 
 ![alt](/assets/img/electronic-rituals/expensive-oracle-service/09-random-number-generated.png)
-*A random number is generated! This number is meant to be portable, or in the future integrates with other services.*
+*A random number is generated! This number is meant to be portable. In the future maybe it integrates with other services.*
 
 ![alt](/assets/img/electronic-rituals/expensive-oracle-service/10-advice-revealed.png)
-*And at the end you have the option to reveal your words. The way I envision it, the Querent takes the random number to digitally shuffle and draw a tarot card for a Daily Reading. Next, they can reveal the words of the Oracles... adding more factors to their narrative.*
+*At the end the Querent has the option to reveal all the words. The way I envision it, the Querent takes the random number to digitally shuffle and draw a tarot card for a Daily Reading. Next, they can reveal the words of the Oracles... adding more external interpretations to their narrative.*
 
 Code
 ----
