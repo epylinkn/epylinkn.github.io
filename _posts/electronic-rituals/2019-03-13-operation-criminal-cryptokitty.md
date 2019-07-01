@@ -6,7 +6,8 @@ tags: electronic-rituals
 categories: electronic-rituals
 ---
 
-NOTE: This project is currently unfinished. But... it will be my final project.
+UPDATE: Link to preliminary implementation and writeup:
+[https://github.com/epylinkn/operation-criminal-kitty/blob/master/DOCUMENTATION.md](here)
 
 ![Criminal Kitty](/assets/img/electronic-rituals/criminal-kitty.png)
 *This project inspired by this lovely kitty I breeded, which I admit looks like a criminal...*
@@ -55,7 +56,9 @@ Anyway, I wanted to explore intersecting these interests, that is junkish/inaccu
 Next Steps
 ----------
 
-TODO: Actually do it...
+The project is implemented here!
+https://github.com/epylinkn/operation-criminal-kitty
+
 
 References
 ----------
