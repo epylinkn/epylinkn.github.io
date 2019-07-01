@@ -6,8 +6,7 @@ tags: electronic-rituals
 categories: electronic-rituals
 ---
 
-UPDATE: Link to preliminary implementation and writeup:
-[https://github.com/epylinkn/operation-criminal-kitty/blob/master/DOCUMENTATION.md](here)
+UPDATE: Link to preliminary implementation and writeup [here](https://github.com/epylinkn/operation-criminal-kitty/blob/master/DOCUMENTATION.md)
 
 ![Criminal Kitty](/assets/img/electronic-rituals/criminal-kitty.png)
 *This project inspired by this lovely kitty I breeded, which I admit looks like a criminal...*
