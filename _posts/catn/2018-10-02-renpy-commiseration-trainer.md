@@ -2,7 +2,7 @@
 layout: post
 title:  "RenPy: Commiseration Trainer"
 date:   2018-10-02 00:00:01 -0400
-tags: wip
+tags: renpy computational-narrative
 categories: catn
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Museum of Moms: Tiger Mom"
 date:   2018-10-16 00:00:01 -0400
-tags: wip
+tags: narrative markov-chains
 categories: catn
 ---
 

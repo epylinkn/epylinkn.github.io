@@ -2,7 +2,7 @@
 layout: post
 title:  "Music Sounds Better With You"
 date:   2018-12-14 00:00:01 -0400
-tags: wip
+tags: machine-learning
 categories: neural-aesthetic
 ---
 
