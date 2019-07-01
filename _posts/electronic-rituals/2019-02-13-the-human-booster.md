@@ -2,7 +2,7 @@
 layout: post
 title:  "Electronic Ritual: The Human Booster"
 date:   2019-02-13 00:00:01 -0400
-tags: wip
+tags: electronic-rituals
 categories: electronic-rituals
 ---
 

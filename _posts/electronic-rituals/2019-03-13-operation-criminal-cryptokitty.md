@@ -2,7 +2,7 @@
 layout: post
 title:  "Operation: Criminal CryptoKitty"
 date:   2019-03-13 00:00:01 -0400
-tags: wip
+tags: electronic-rituals
 categories: electronic-rituals
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Digital Random: Expensive Oracle Service"
 date:   2019-04-17 00:00:01 -0400
-tags: wip
+tags: electronic-rituals smart-contract blockchain
 categories: electronic-rituals
 ---
 

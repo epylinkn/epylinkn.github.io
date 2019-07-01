@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[WIP] DMX Controller: Playing the Lights"
+title:  "DMX Controller: Playing the Lights"
 date:   2018-03-01 00:00:01 -0400
 tags: itp
 categories: tangible-interaction

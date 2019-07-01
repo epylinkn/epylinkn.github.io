@@ -2,7 +2,7 @@
 layout: post
 title:  "Oracle in the Shell"
 date:   2019-02-27 00:00:01 -0400
-tags: wip
+tags: electronic-rituals
 categories: electronic-rituals
 ---
 
